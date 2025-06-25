@@ -114,7 +114,7 @@ O padrão Singleton foi aplicado em **todas as classes do projeto Complemente** 
 
 O sistema Complemente utiliza um **banco de dados relacional SQL**, que oferece uma estrutura clara de entidades e seus relacionamentos, alinhando-se à modelagem orientada a objetos do projeto. A plataforma escolhida foi o **MySQL**, por sua interface intuitiva, bom desempenho e familiaridade da equipe. 
 
-📌 Onde encontrar: [`bd_POO.sql`](bd_POO.sql)
+📌 Onde encontrar: [`bancoDeDados/bd_POO.sql`](bancoDeDados/bd_POO.sql)
 
 <br>
 
@@ -122,7 +122,7 @@ O sistema Complemente utiliza um **banco de dados relacional SQL**, que oferece 
 
 O sistema Complemente conta com uma interface gráfica construída com nove telas desenvolvidas via JFrames, proporcionando uma navegação intuitiva e completa para o gerenciamento de atividades complementares. As principais interfaces incluem o perfil do aluno, o cadastro e a lista de atividades e a consulta detalhada, com recursos como seleção para relatório, notificações de validação e operações CRUD.
 
-📌 Onde encontrar: [`codigo/src/main/java/view`](codigo/src/main/java/view)
+📌 Onde encontrar: [`Complemente.zip`](Complemente.zip), ao acessar o documento procurar por: `complemente/src/main/java/view`
 
 
 <br>
@@ -156,7 +156,7 @@ O sistema Complemente cumpriu a maior parte dos objetivos propostos, oferecendo 
 
 ## 📂 Estrutura dos Arquivos
 
-- **/codigo** – Código-fonte do sistema em Java, estruturado em pacotes do NetBeans  
+- **/Complemente.zip** – Código-fonte do sistema em Java, estruturado em pacotes do NetBeans, em formato compactado .zip  
 - **/diagramas** – Diagramas UML do projeto (formato Astah e imagens PNG)  
 - **/bancoDeDados** – Script SQL com a estrutura do banco de dados relacional  
 - **/documentacao** – Relatório acadêmico e outros materiais de apoio  
