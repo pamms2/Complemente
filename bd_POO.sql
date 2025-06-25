@@ -23,27 +23,27 @@ CREATE TABLE atividade (
     FOREIGN KEY (ra) REFERENCES aluno(ra)
 );
 
-CREATE TABLE total_atividade (
+CREATE TABLE totalAtividade (
     id INT AUTO_INCREMENT PRIMARY KEY,
     ra INT NOT NULL,
     grupo INT NOT NULL,
-    soma_pontos INT NOT NULL,
+    somaPontos INT NOT NULL,
     FOREIGN KEY (ra) REFERENCES aluno(ra)
 );
 
 CREATE TABLE relatorio (
     id INT AUTO_INCREMENT PRIMARY KEY,
     ra INT NOT NULL,
-    caminho_arquivo VARCHAR(255),
+    caminhoArquivo VARCHAR(255),
     FOREIGN KEY (ra) REFERENCES aluno(ra)
 );
 
-CREATE TABLE relatorio_atividade (
-    id_relatorio INT,
-    id_atividade INT,
-    PRIMARY KEY (id_relatorio, id_atividade),
-    FOREIGN KEY (id_relatorio) REFERENCES relatorio(id),
-    FOREIGN KEY (id_atividade) REFERENCES atividade(id)
+CREATE TABLE relatorioAtividade (
+    idRelatorio INT,
+    idAtividade INT,
+    PRIMARY KEY (idRelatorio, idAtividade),
+    FOREIGN KEY (idRelatorio) REFERENCES relatorio(id),
+    FOREIGN KEY (idAtividade) REFERENCES atividade(id)
 );
 
 -- inserção de dados na tabela aluno
