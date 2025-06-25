@@ -6,14 +6,14 @@ CREATE TABLE aluno (
     nome VARCHAR(100) NOT NULL,
     email VARCHAR(100) NOT NULL UNIQUE,
     senha VARCHAR(255) NOT NULL,
-    cod_curso INT NOT NULL,
+    codCurso INT NOT NULL,
     curso VARCHAR(100) NOT NULL
 );
 
 CREATE TABLE atividade (
     id INT AUTO_INCREMENT PRIMARY KEY,
     ra INT NOT NULL,
-    tipo VARCHAR(50) NOT NULL,
+    tipo VARCHAR(500) NOT NULL,
     descricao TEXT,
     inicio DATE NOT NULL,
     fim DATE NOT NULL,
@@ -47,10 +47,9 @@ CREATE TABLE relatorio_atividade (
 );
 
 -- inserção de dados na tabela aluno
-INSERT INTO aluno (ra, nome, email, senha, cod_curso, curso) VALUES 
+INSERT INTO aluno (ra, nome, email, senha, codCurso, curso) VALUES 
 (2601435, 'Maria Clara', 'mariajesus@alunos.utfpr.edu.br', 'Mc2610!', 1, "Engenharia de Software"),
 (2369885, 'Josiane Batista', 'josibatista@alunos.utfpr.edu.br', 'Jos!1208', 2, "Controle e Automação"),
 (2564254, 'Pamela Berti', 'pbraz@alunos.utfpr.edu.br', 'Br@z0412', 1, "Análise e Desenvolvimento de Sistemas");
 
 select * from aluno; 
-
