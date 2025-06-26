@@ -38,40 +38,40 @@ A metodologia seguiu o **modelo incremental**, com etapas progressivas de modela
 
 Os requisitos funcionais definem o que o sistema deve fazer, ou seja, as funcionalidades específicas  necessárias para atender os objetivos do projeto. No sistema Complemente, essas funções abrangem cadastro, login, manipulação de atividades e geração de relatórios.
 
-| Identificador | Descrição                                                                                           | Prioridade |
-|---------------|---------------------------------------------------------------------------------------------------- |------------|
-| RF01          | O sistema deve permitir o cadastro do estudante com RA, nome, senha, e-mail, curso e código.        | Alta       |
-| RF02          | O sistema só deve permitir login com RA e senha válidos.                                            | Alta       |
-| RF03          | O sistema deve permitir as funcionalidades CRUD no perfil do usuário.                               | Média      |
-| RF04          | O sistema deve permitir o cadastro de atividades complementares com dados completos.                | Alta       |
-| RF05          | O sistema deve permitir as funcionalidades CRUD para atividades complementares.                     | Alta       |
-| RF06          | O sistema deve fornecer a lista de tipos de atividade.                                              | Baixa      |
-| RF07          | O sistema deve identificar o grupo da atividade com base no tipo cadastrado.                        | Alta       |
-| RF08          | O sistema deve calcular os pontos conforme os dados da atividade.                                   | Alta       |
-| RF09          | O sistema deve exibir as atividades em formato de dashboard.                                        | Baixa      |
-| RF10          | O usuário deve poder selecionar quais atividades irão para o relatório final.                       | Média      |
-| RF11          | O sistema deve indicar a quantidade de horas que faltam para atingir o mínimo de cada grupo.        | Baixa      |
-| RF12          | O sistema deve indicar a quantidade de horas que ultrapassaram o máximo de cada grupo.              | Baixa      |
-| RF13          | O sistema deve gerar relatórios em PDF conforme solicitado pelo usuário.                            | Média      |
+| Identificador | Descrição                                                                                           | Prioridade | Implementado |
+|---------------|---------------------------------------------------------------------------------------------------- |------------|--------------|
+| RF01          | O sistema deve permitir o cadastro do estudante com RA, nome, senha, e-mail, curso e código.        | Alta       | ✅           |
+| RF02          | O sistema só deve permitir login com RA e senha válidos.                                            | Alta       | ✅           |
+| RF03          | O sistema deve permitir as funcionalidades CRUD no perfil do usuário.                               | Média      | ✅           |
+| RF04          | O sistema deve permitir o cadastro de atividades complementares com dados completos.                | Alta       | ✅           |
+| RF05          | O sistema deve permitir as funcionalidades CRUD para atividades complementares.                     | Alta       | ✅           |
+| RF06          | O sistema deve fornecer a lista de tipos de atividade.                                              | Baixa      | ✅           |
+| RF07          | O sistema deve identificar o grupo da atividade com base no tipo cadastrado.                        | Alta       | ✅           |
+| RF08          | O sistema deve calcular os pontos conforme os dados da atividade.                                   | Alta       | ✅           |
+| RF09          | O sistema deve exibir as atividades em formato de dashboard.                                        | Baixa      | ❌           |
+| RF10          | O usuário deve poder selecionar quais atividades irão para o relatório final.                       | Média      | ✅           |
+| RF11          | O sistema deve indicar a quantidade de horas que faltam para atingir o mínimo de cada grupo.        | Baixa      | ✅           |
+| RF12          | O sistema deve indicar a quantidade de horas que ultrapassaram o máximo de cada grupo.              | Baixa      | ✅           |
+| RF13          | O sistema deve gerar relatórios em PDF conforme solicitado pelo usuário.                            | Média      | ❌           |
 
 
 ### ⚙️ Requisitos Não Funcionais
 
 Os requisitos não funcionais determinam como o sistema deve operar, garantindo qualidade, desempenho, segurança e conformidade técnica. Eles asseguram a estabilidade, usabilidade e integridade do sistema Complemente durante seu uso.
 
-| Identificador | Descrição                                                                                               | Tipo           |
-|---------------|---------------------------------------------------------------------------------------------------------|----------------|
-| RNF01         | O sistema deve gerar o relatório em apenas um clique.                                                   | Usabilidade    |
-| RNF02         | O sistema deve possuir interface acessível.                                                             | Acessibilidade |
-| RNF03         | O sistema deve ser implementado utilizando a linguagem Java.                                            | Implementação  |
-| RNF04         | O sistema deve ser gerenciado a partir da linguagem SQL.                                                | Implementação  |
-| RNF05         | O sistema deve validar e-mails no formato usuario@alunos.utfpr.edu.br.                                  | Segurança      |
-| RNF06         | O sistema deve validar RAs no formato numérico de 7 dígitos: 1234567.                                   | Segurança      |
-| RNF07         | O sistema deve criptografar todos os dados conforme a Lei Nº 13.709/2018 (LGPD).                        | Legislativo    |
-| RNF08         | O sistema deve funcionar corretamente nos sistemas operacionais Windows e Linux.                        | Portabilidade  |
-| RNF09         | O sistema deve garantir que os dados de cada usuário permaneçam privados e acessíveis apenas com login. | Segurança      |
-| RNF10         | O sistema deve armazenar os dados e atividades do usuário em um arquivo local na máquina.               | Armazenamento  |
-| RNF11         | O sistema deve garantir que os dados de um usuário não sejam acessíveis por outro.                      | Segurança      |
+| Identificador | Descrição                                                                                               | Tipo           |  Implementado |
+|---------------|---------------------------------------------------------------------------------------------------------|----------------|---------------|
+| RNF01         | O sistema deve gerar o relatório em apenas um clique.                                                   | Usabilidade    | ✅            |
+| RNF02         | O sistema deve possuir interface acessível.                                                             | Acessibilidade | ✅            |
+| RNF03         | O sistema deve ser implementado utilizando a linguagem Java.                                            | Implementação  | ✅            |
+| RNF04         | O sistema deve ser gerenciado a partir da linguagem SQL.                                                | Implementação  | ✅            |
+| RNF05         | O sistema deve validar e-mails no formato usuario@alunos.utfpr.edu.br.                                  | Segurança      | ✅            |
+| RNF06         | O sistema deve validar RAs no formato numérico de 7 dígitos: 1234567.                                   | Segurança      | ✅            |
+| RNF07         | O sistema deve criptografar todos os dados conforme a Lei Nº 13.709/2018 (LGPD).                        | Legislativo    | ❌            |
+| RNF08         | O sistema deve funcionar corretamente nos sistemas operacionais Windows e Linux.                        | Portabilidade  | ✅            |
+| RNF09         | O sistema deve garantir que os dados de cada usuário permaneçam privados e acessíveis apenas com login. | Segurança      | ✅            |
+| RNF10         | O sistema deve armazenar os dados e atividades do usuário em um arquivo local na máquina.               | Armazenamento  | ❌            |
+| RNF11         | O sistema deve garantir que os dados de um usuário não sejam acessíveis por outro.                      | Segurança      | ✅            |
 
 
 ### 📌 Diagrama de Casos de Uso
