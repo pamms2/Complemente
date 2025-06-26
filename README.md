@@ -122,7 +122,7 @@ O sistema Complemente utiliza um **banco de dados relacional SQL**, que oferece 
 
 O sistema Complemente conta com uma interface gráfica construída com nove telas desenvolvidas via JFrames, proporcionando uma navegação intuitiva e completa para o gerenciamento de atividades complementares. As principais interfaces incluem o perfil do aluno, o cadastro e a lista de atividades e a consulta detalhada, com recursos como seleção para relatório, notificações de validação e operações CRUD.
 
-📌 Onde encontrar: [`Complemente.zip`](Complemente.zip), ao acessar o documento procurar por: `complemente/src/main/java/view`
+📌 Onde encontrar: [`codigos.zip`](codigos.zip), ao baixar e descompactar, encontre em: `codigos/complemente/src/main/java/view`
 
 
 <br>
@@ -156,7 +156,7 @@ O sistema Complemente cumpriu a maior parte dos objetivos propostos, oferecendo 
 
 ## 📂 Estrutura dos Arquivos
 
-- **/Complemente.zip** – Código-fonte do sistema em Java, estruturado em pacotes do NetBeans, em formato compactado .zip  
+- **/codigos.zip** – Código-fonte do sistema em Java, estruturado em pacotes do NetBeans, em formato compactado .zip  
 - **/diagramas** – Diagramas UML do projeto (formato Astah e imagens PNG)  
 - **/bancoDeDados** – Script SQL com a estrutura do banco de dados relacional  
 - **/documentacao** – Relatório acadêmico e outros materiais de apoio  
