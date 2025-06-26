@@ -46,11 +46,3 @@ CREATE TABLE relatorioAtividade (
     FOREIGN KEY (idRelatorio) REFERENCES relatorio(id),
     FOREIGN KEY (idAtividade) REFERENCES atividade(id)
 );
-
--- inserção de dados na tabela aluno
-INSERT INTO aluno (ra, nome, email, senha, codCurso, curso) VALUES 
-(2601435, 'Maria Clara', 'mariajesus@alunos.utfpr.edu.br', 'Mc2610!', 3, "Engenharia de Software"),
-(2369885, 'Josiane Batista', 'josibatista@alunos.utfpr.edu.br', 'Jos!1208', 2, "Controle e Automação"),
-(2564254, 'Pamela Berti', 'pbraz@alunos.utfpr.edu.br', 'Br@z0412', 1, "Análise e Desenvolvimento de Sistemas");
-
-select * from aluno; 
