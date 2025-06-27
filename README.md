@@ -43,7 +43,7 @@ Os requisitos funcionais definem o que o sistema deve fazer, ou seja, as funcion
 | RF01          | O sistema deve permitir o cadastro do estudante com RA, nome, senha, e-mail, curso e código.        | Alta       | ✅           |
 | RF02          | O sistema só deve permitir login com RA e senha válidos.                                            | Alta       | ✅           |
 | RF03          | O sistema deve permitir as funcionalidades CRUD no perfil do usuário.                               | Média      | ✅           |
-| RF04          | O sistema deve permitir o cadastro de atividades complementares com dados completos.                | Alta       | ✅           |
+| RF04          | O sistema deve permitir o cadastro de atividades complementares com tipo, descrição, início, término e duração.               | Alta       | ✅           |
 | RF05          | O sistema deve permitir as funcionalidades CRUD para atividades complementares.                     | Alta       | ✅           |
 | RF06          | O sistema deve fornecer a lista de tipos de atividade.                                              | Baixa      | ✅           |
 | RF07          | O sistema deve identificar o grupo da atividade com base no tipo cadastrado.                        | Alta       | ✅           |
@@ -62,7 +62,7 @@ Os requisitos não funcionais determinam como o sistema deve operar, garantindo 
 | Identificador | Descrição                                                                                               | Tipo           |  Implementado |
 |---------------|---------------------------------------------------------------------------------------------------------|----------------|---------------|
 | RNF01         | O sistema deve gerar o relatório em apenas um clique.                                                   | Usabilidade    | ✅            |
-| RNF02         | O sistema deve possuir interface acessível.                                                             | Acessibilidade | ✅            |
+| RNF02         | O sistema deve possuir interface acessível.                                                             | Acessibilidade | ❌            |
 | RNF03         | O sistema deve ser implementado utilizando a linguagem Java.                                            | Implementação  | ✅            |
 | RNF04         | O sistema deve ser gerenciado a partir da linguagem SQL.                                                | Implementação  | ✅            |
 | RNF05         | O sistema deve validar e-mails no formato usuario@alunos.utfpr.edu.br.                                  | Segurança      | ✅            |
